@@ -46,3 +46,29 @@ window.addEventListener("scroll", function () {
   }
   lastScrollTop = scrollTop;
 });
+
+// JavaScript to handle image popup
+document.querySelectorAll(".season-image").forEach((img) => {
+  img.addEventListener("click", function () {
+    const modal = document.getElementById("imageModal");
+    const popupImage = document.getElementById("popupImage");
+
+    // Set the modal image source to the clicked image source
+    popupImage.src = this.src;
+
+    // Show the modal
+    modal.classList.add("active");
+  });
+});
+
+// Close modal when clicking the close button
+document.getElementById("closeModal").addEventListener("click", function () {
+  document.getElementById("imageModal").classList.remove("active");
+});
+
+// Hide the modal when clicking outside the image
+document.getElementById("imageModal").addEventListener("click", function (e) {
+  if (e.target === this) {
+    this.classList.remove("active");
+  }
+});

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+      integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css"
+      integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+  <body class="scroll-smooth">
+    <header
+      id="header"
+      class="bg-slate-50 p-6 fixed mx-auto w-full flex gap-32 items-center justify-center z-50 transition ease-in-out delay-150"
+    >
+      <nav class="text-black" id="navbar">
+        <ul class="flex gap-12">
+          <li>
+            <a href="#home" id="home-link" class="custom-underline">Home</a>
+          </li>
+          <li>
+            <a href="#about" id="product-link" class="custom-underline"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#product" id="product-link" class="custom-underline"
+              >Product</a
+            >
+          </li>
+          <li>
+            <a href="#services" id="categories-link" class="custom-underline"
+              >Categories</a
+            >
+          </li>
+          <li>
+            <a href="#contact" id="sale-link" class="custom-underline">Sale</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img src="../assets/img/logo.png" alt="" />
+
+      <div class="flex items-center justify-between gap-12">
+        <input
+          type="text"
+          class="bg-slate-100 rounded-[10px] focus:outline focus:outline-blue-500 p-2"
+          placeholder="search..."
+        />
+        <i class="fa-solid fa-bag-shopping"></i>
+        <i class="fa-regular fa-user"></i>
+      </div>
+    </header>
+
+    <main id="">
+      <!-- home section -->
+      <section id="" class="pt-24 bg-white text-black">
+        <div class="bg-yellow-100 flex justify-center overflow-hidden">
+          <img class="object-contain" src="../assets/img/banner1.png" alt="" />
+        </div>
+      </section>
+      <!--end home section -->
+
+      <!-- collection section -->
+      <section id="about" class="mt-12 bg-white">
+        <div
+          class="flex-row text-center justify-center m-12 items-center text-black"
+        >
+          <h1 class="text-3xl font-semibold">Season Collections</h1>
+
+          <div class="flex items-center justify-center m-1 py-4 sm:m-8 gap-6">
+            <div class="overflow-hidden">
+              <img class="object-cover" src="../assets/img/summer.png" alt="" />
+              <h3 class="text-2xl font-semibold m-4">SUMMER</h3>
+              <button
+                id="moreBtn"
+                class="bg-[#F7F6F0] p-2 rounded-[20px] w-[120px]"
+              >
+                MORE
+              </button>
+            </div>
+            <div class="overflow-hidden">
+              <img class="object-cover" src="../assets/img/spring.png" alt="" />
+              <h3 class="text-2xl font-semibold m-4">SPRING</h3>
+              <button
+                id="moreBtn"
+                class="bg-[#F7F6F0] p-2 rounded-[20px] w-[120px]"
+              >
+                MORE
+              </button>
+            </div>
+
+            <div class="overflow-hidden">
+              <img class="object-cover" src="../assets/img/winter.png" alt="" />
+              <h3 class="text-2xl font-semibold m-4">WINTER</h3>
+              <button
+                id="moreBtn"
+                class="bg-[#F7F6F0] p-2 rounded-[20px] w-[120px]"
+              >
+                MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end collection section -->
+
+      <!-- section best seller -->
+      <section id="bestSeller" class="bg-white">
+        <div
+          class="flex-row justify-center items-center text-center m-12 text-black"
+        >
+          <h1 class="text-3xl font-semibold">Our Best Seller</h1>
+
+          <div class="flex items-center justify-center gap-6 m-12">
+            <div>
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/best_seller1.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-4">
+                <h3 class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                  Euphoria Crop Blouse
+                </h3>
+                <p>Rp. 125.000</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/best_seller2.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-4">
+                <h3 class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                  Venus Halter Dress
+                </h3>
+                <p>Rp. 185.000</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/best_seller3.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-4">
+                <h3 class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl">
+                  Snap Pure Blouse
+                </h3>
+                <p>Rp. 130.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section best seller -->
+
+      <!-- section banner 2 -->
+      <section class="mt-12">
+        <img src="../assets/img/banner2.png" alt="" />
+      </section>
+      <!-- end section banner 2 -->
+
+      <!-- section products by categories -->
+      <section id="product" class="mt-12">
+        <div
+          class="flex-row justify-center items-center text-center text-black"
+        >
+          <h1 class="text-3xl font-semibold">Our Products</h1>
+          <div class="bg-[#F7F6F0] m-12 p-6">
+            <div
+              class="w-full mx-auto p-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 rounded-lg"
+            >
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Eto V Neck Yellow
+                  </h3>
+                  <p class="text-sm">Rp. 129.000</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Macaron Dry Half
+                  </h3>
+                  <p class="text-sm">Rp. 139.000</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Wave Stripe Hally
+                  </h3>
+                  <p class="text-sm">Rp. 130.000</p>
+                </div>
+              </div>
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Wave Stripe Hally
+                  </h3>
+                  <p class="text-sm">Rp. 130.000</p>
+                </div>
+              </div>
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Wave Stripe Hally
+                  </h3>
+                  <p class="text-sm">Rp. 130.000</p>
+                </div>
+              </div>
+              <div>
+                <div class="overflow-hidden">
+                  <img
+                    class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                    src="../assets/img/product3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-4">
+                  <h3
+                    class="text-md sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                  >
+                    Wave Stripe Hally
+                  </h3>
+                  <p class="text-sm">Rp. 130.000</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+              id="moreBtn"
+              class="bg-slate-50 m-12 p-2 rounded-[20px] w-[120px] text-black"
+            >
+              See More <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- section products by categories -->
+
+      <!-- section featured collection -->
+
+      <section id="feature">
+        <div
+          class="flex-row justify-center items-center text-center m-12 text-black"
+        >
+          <h1 class="text-3xl font-semibold">Our Featured Collections</h1>
+
+          <div class="grid grid-cols-3 grid-rows-4 gap-4 m-12">
+            <!-- Card 1 - spanning 2 rows -->
+            <div class="flex justify-center items-center">
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/collection1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- Other cards with regular placement -->
+            <div
+              class="flex justify-center items-center"
+              style="grid-row: span 2"
+            >
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/collection2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/collection3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/collection.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+              <div class="overflow-hidden">
+                <img
+                  class="object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+                  src="../assets/img/collection4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- Card 11 - spanning 2 columns -->
+          </div>
+        </div>
+      </section>
+
+      <!-- end section featured collection -->
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
